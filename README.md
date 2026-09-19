@@ -3,14 +3,14 @@
 Control system volume with hand gestures using computer vision.
 
 ## Overview
-This project combines webcam-based hand tracking with system audio controls to provide a touch-free volume interface.
+Combines webcam-based hand tracking with system audio controls for a touch-free volume interface.
 
-## Project Structure
+## Structure
 - `main.py` — application entry point
-- `hand_tracker.py` — hand tracking logic
+- `hand_tracker.py` — hand tracking
 - `volume_controller.py` — system volume control
-- `ui_overlay.py` — on-screen UI/overlay
-- `requirements.txt` — Python dependencies
+- `ui_overlay.py` — on-screen overlay
+- `requirements.txt` — dependencies
 
 ## Installation
 ```bash
@@ -24,5 +24,4 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## Notes
-A webcam is required for gesture tracking. Platform-specific audio-control behavior may vary.
+A webcam is required for gesture tracking.
